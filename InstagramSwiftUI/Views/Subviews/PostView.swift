@@ -11,7 +11,7 @@ struct PostView: View {
     var body: some View {
         VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 0, content: {
             
-            // MARK: - Header
+            // MARK: - HEADER
             HStack {
                 Image("dog1")
                     .resizable()
@@ -35,6 +35,8 @@ struct PostView: View {
             // MARK: - IMAGE
             
             Image("dog1")
+                .resizable()
+                .scaledToFit()
             
             // MARK: - FOOTER
             
@@ -45,7 +47,7 @@ struct PostView: View {
                     .font(.title3)
                 Image(systemName: "paperplane")
                     .font(.title3)
-                
+
                 Spacer()
             })
             .padding(.all, 6)
