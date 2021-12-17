@@ -46,8 +46,14 @@ struct PostView: View {
             HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 20, content: {
                 Image(systemName: "heart")
                     .font(.title3)
-                Image(systemName: "bubble.middle.bottom")
-                    .font(.title3)
+                // MARK: - COMMENT ICON
+                NavigationLink(
+                    destination: CommentsView(),
+                    label: {
+                        Image(systemName: "bubble.middle.bottom")
+                            .font(.title3)
+                            .foregroundColor(.primary)
+                    })
                 Image(systemName: "paperplane")
                     .font(.title3)
 

@@ -5,7 +5,6 @@
 //  Created by Caleb Danielsen on 16/12/2021.
 //
 import Foundation
-import SwiftUI
 
 struct PostModel: Identifiable, Hashable {    
     
