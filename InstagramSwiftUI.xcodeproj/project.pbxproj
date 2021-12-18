@@ -26,6 +26,8 @@
 		3CD71241276DC6760013099E /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71240276DC6740013099E /* UploadView.swift */; };
 		3CD71244276DCD020013099E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71243276DCD020013099E /* ImagePicker.swift */; };
 		3CD71247276DEF6D0013099E /* PostImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71246276DEF6C0013099E /* PostImageView.swift */; };
+		3CD7124A276E870F0013099E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71249276E870F0013099E /* ProfileView.swift */; };
+		3CD7124D276E881D0013099E /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD7124C276E881D0013099E /* ProfileHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		3CD71240276DC6740013099E /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		3CD71243276DCD020013099E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		3CD71246276DEF6C0013099E /* PostImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageView.swift; sourceTree = "<group>"; };
+		3CD71249276E870F0013099E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3CD7124C276E881D0013099E /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 				3CD71227276C1BE10013099E /* CommentsView.swift */,
 				3CD71234276C2F4A0013099E /* BrowseView.swift */,
 				3CD71246276DEF6C0013099E /* PostImageView.swift */,
+				3CD71249276E870F0013099E /* ProfileView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				3CD71238276C30430013099E /* CarouselView.swift */,
 				3CD7123C276DB76F0013099E /* ImageGridView.swift */,
 				3CD71243276DCD020013099E /* ImagePicker.swift */,
+				3CD7124C276E881D0013099E /* ProfileHeaderView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -233,9 +239,11 @@
 				3CD71225276ABFDD0013099E /* PostArrayObject.swift in Sources */,
 				3CD7123D276DB76F0013099E /* ImageGridView.swift in Sources */,
 				3CD711D3276963C10013099E /* PostView.swift in Sources */,
+				3CD7124A276E870F0013099E /* ProfileView.swift in Sources */,
 				3CD71235276C2F4A0013099E /* BrowseView.swift in Sources */,
 				3CD71232276C25BE0013099E /* CommentModel.swift in Sources */,
 				3CD71228276C1BE20013099E /* CommentsView.swift in Sources */,
+				3CD7124D276E881D0013099E /* ProfileHeaderView.swift in Sources */,
 				3CD71241276DC6760013099E /* UploadView.swift in Sources */,
 				3CD71244276DCD020013099E /* ImagePicker.swift in Sources */,
 				3CD71239276C30430013099E /* CarouselView.swift in Sources */,
