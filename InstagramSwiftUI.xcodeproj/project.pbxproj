@@ -23,6 +23,7 @@
 		3CD71235276C2F4A0013099E /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71234276C2F4A0013099E /* BrowseView.swift */; };
 		3CD71239276C30430013099E /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71238276C30430013099E /* CarouselView.swift */; };
 		3CD7123D276DB76F0013099E /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD7123C276DB76F0013099E /* ImageGridView.swift */; };
+		3CD71241276DC6760013099E /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71240276DC6740013099E /* UploadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		3CD71234276C2F4A0013099E /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		3CD71238276C30430013099E /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		3CD7123C276DB76F0013099E /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
+		3CD71240276DC6740013099E /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				3CD71212276AA8B00013099E /* InstagramSwiftUIApp.swift */,
 				3CD711B1276955870013099E /* ContentView.swift */,
+				3CD71240276DC6740013099E /* UploadView.swift */,
 				3CD711CE276962DA0013099E /* FeedView.swift */,
 				3CD71227276C1BE10013099E /* CommentsView.swift */,
 				3CD71234276C2F4A0013099E /* BrowseView.swift */,
@@ -226,6 +229,7 @@
 				3CD71235276C2F4A0013099E /* BrowseView.swift in Sources */,
 				3CD71232276C25BE0013099E /* CommentModel.swift in Sources */,
 				3CD71228276C1BE20013099E /* CommentsView.swift in Sources */,
+				3CD71241276DC6760013099E /* UploadView.swift in Sources */,
 				3CD71239276C30430013099E /* CarouselView.swift in Sources */,
 				3CD71213276AA8B00013099E /* InstagramSwiftUIApp.swift in Sources */,
 			);
