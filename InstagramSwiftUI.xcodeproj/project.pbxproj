@@ -33,6 +33,7 @@
 		3CD71256276E9FE00013099E /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71255276E9FE00013099E /* SettingsRowView.swift */; };
 		3CD71259276EB7610013099E /* SettingEditTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71258276EB7610013099E /* SettingEditTextView.swift */; };
 		3CD7125C276F1E710013099E /* SettingsEditImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD7125B276F1E710013099E /* SettingsEditImageView.swift */; };
+		3CD7125F276F2CCE0013099E /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD7125E276F2CCD0013099E /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		3CD71255276E9FE00013099E /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		3CD71258276EB7610013099E /* SettingEditTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingEditTextView.swift; sourceTree = "<group>"; };
 		3CD7125B276F1E710013099E /* SettingsEditImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEditImageView.swift; sourceTree = "<group>"; };
+		3CD7125E276F2CCD0013099E /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				3CD71249276E870F0013099E /* ProfileView.swift */,
 				3CD71258276EB7610013099E /* SettingEditTextView.swift */,
 				3CD7125B276F1E710013099E /* SettingsEditImageView.swift */,
+				3CD7125E276F2CCD0013099E /* SignUpView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				3CD71253276E9CC00013099E /* SettingsLabelIView.swift in Sources */,
 				3CD711CF276962DA0013099E /* FeedView.swift in Sources */,
 				3CD71220276AAFB30013099E /* PostModel.swift in Sources */,
+				3CD7125F276F2CCE0013099E /* SignUpView.swift in Sources */,
 				3CD71247276DEF6D0013099E /* PostImageView.swift in Sources */,
 				3CD711B2276955870013099E /* ContentView.swift in Sources */,
 				3CD7122F276C23D50013099E /* MessageView.swift in Sources */,
