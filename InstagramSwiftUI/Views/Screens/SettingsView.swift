@@ -46,9 +46,13 @@ struct SettingsView: View {
                             SettingsRowView(leftIcon: "text.quote", text: "Bio",
                                             color: Color.Theme.purpleColor)
                         })
+                    NavigationLink(
+                        destination: SettingsEditImageView(title: "Profile Picture", description: "Your profile picture will be shown on your profile and your posts. Most users make it an image of themselves or of their dog!", selectedImage: UIImage(named: "dog1")!),
+                        label: {
+                            SettingsRowView(leftIcon: "photo", text: "Profile picture",
+                                            color: Color.Theme.purpleColor)
+                        })
                     
-                    SettingsRowView(leftIcon: "photo", text: "Profile picture",
-                                    color: Color.Theme.purpleColor)
                     SettingsRowView(leftIcon: "figure.walk", text: "Sign out",
                                     color: Color.Theme.purpleColor)
                 })
@@ -57,9 +61,24 @@ struct SettingsView: View {
                 // MARK: - SECTION 3: APPLICATION
                 GroupBox(label: SettingsLabelIView(labelText: "Application", labelImage: "apps.iphone"), content: {
                     
-                    SettingsRowView(leftIcon: "folder.fill", text: "Privacy Policy", color: Color.Theme.yellowColor)
-                    SettingsRowView(leftIcon: "folder.fill", text: "Terms & Conditions", color: Color.Theme.yellowColor)
-                    SettingsRowView(leftIcon: "globe", text: "DogGram's Website", color: Color.Theme.yellowColor)
+                    Button(action: {
+                        openCustonURL(urlString: "http://www.google.com")
+                    }, label: {
+                        SettingsRowView(leftIcon: "folder.fill", text: "Privacy Policy", color: Color.Theme.yellowColor)
+                    })
+                    
+                    Button(action: {
+                        openCustonURL(urlString: "http://www.yahoo.com")
+                    }, label: {
+                        SettingsRowView(leftIcon: "folder.fill", text: "Terms & Conditions", color: Color.Theme.yellowColor)
+                    })
+                    
+                    Button(action: {
+                        openCustonURL(urlString: "http://www.bing.com")
+                    }, label: {
+                        SettingsRowView(leftIcon: "globe", text: "DogGram's Website", color: Color.Theme.yellowColor)
+                    })
+                    
                 })
                 .padding()
                 
@@ -84,6 +103,16 @@ struct SettingsView: View {
                                     })
                                     .accentColor(.primary)
             )
+        }
+    }
+    
+    // MARK: - FUNCTIONS
+    
+    func openCustonURL(urlString: String) {
+        guard let url = URL(string: urlString) else { return }
+        
+        if UIApplication.shared.canOpenURL(url) {
+            UIApplication.shared.open(url)
         }
     }
 }

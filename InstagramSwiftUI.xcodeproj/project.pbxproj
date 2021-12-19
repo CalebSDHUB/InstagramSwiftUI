@@ -32,6 +32,7 @@
 		3CD71253276E9CC00013099E /* SettingsLabelIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71252276E9CC00013099E /* SettingsLabelIView.swift */; };
 		3CD71256276E9FE00013099E /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71255276E9FE00013099E /* SettingsRowView.swift */; };
 		3CD71259276EB7610013099E /* SettingEditTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71258276EB7610013099E /* SettingEditTextView.swift */; };
+		3CD7125C276F1E710013099E /* SettingsEditImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD7125B276F1E710013099E /* SettingsEditImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		3CD71252276E9CC00013099E /* SettingsLabelIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelIView.swift; sourceTree = "<group>"; };
 		3CD71255276E9FE00013099E /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		3CD71258276EB7610013099E /* SettingEditTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingEditTextView.swift; sourceTree = "<group>"; };
+		3CD7125B276F1E710013099E /* SettingsEditImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEditImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				3CD71246276DEF6C0013099E /* PostImageView.swift */,
 				3CD71249276E870F0013099E /* ProfileView.swift */,
 				3CD71258276EB7610013099E /* SettingEditTextView.swift */,
+				3CD7125B276F1E710013099E /* SettingsEditImageView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				3CD711D3276963C10013099E /* PostView.swift in Sources */,
 				3CD7124A276E870F0013099E /* ProfileView.swift in Sources */,
 				3CD71235276C2F4A0013099E /* BrowseView.swift in Sources */,
+				3CD7125C276F1E710013099E /* SettingsEditImageView.swift in Sources */,
 				3CD71232276C25BE0013099E /* CommentModel.swift in Sources */,
 				3CD71228276C1BE20013099E /* CommentsView.swift in Sources */,
 				3CD7124D276E881D0013099E /* ProfileHeaderView.swift in Sources */,
