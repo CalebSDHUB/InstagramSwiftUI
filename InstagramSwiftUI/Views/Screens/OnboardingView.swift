@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct OnboardingView: View {
+    
+    @Environment(\.presentationMode) var presentationMode
+    @State var showOnboardingPart2: Bool = false
+    
     var body: some View {
         VStack(spacing: 10) {
             Image("logo.transparent")
@@ -29,7 +33,7 @@ struct OnboardingView: View {
                 .padding()
             
             Button(action: {
-                
+                showOnboardingPart2.toggle()
             }, label: {
                 SignInWithAppleButtonCustom()
                     .frame(height: 60)
@@ -37,7 +41,7 @@ struct OnboardingView: View {
             })
             
             Button(action: {
-                
+                showOnboardingPart2.toggle()
             }, label: {
                 HStack {
                     Image(systemName: "globe")
@@ -51,11 +55,24 @@ struct OnboardingView: View {
                 .font(.system(size: 23, weight: .medium, design: .default))
             })
             .accentColor(.white)
+            
+            Button(action: {
+                presentationMode.wrappedValue.dismiss()
+            }, label: {
+                Text("Continue as guest".uppercased())
+                    .font(.headline)
+                    .fontWeight(.medium)
+                    .padding()
+            })
+            .accentColor(.black)
         }
         .padding(.all ,20)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.Theme.biegeColor)
         .edgesIgnoringSafeArea(.all)
+        .fullScreenCover(isPresented: $showOnboardingPart2, content: {
+            OnboardingViewPart2()
+        })
     }
 }
 
