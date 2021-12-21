@@ -37,6 +37,7 @@
 		3CD71262276F38240013099E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71261276F38230013099E /* OnboardingView.swift */; };
 		3CD71265276F3BA60013099E /* SignInWithAppleButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71264276F3BA60013099E /* SignInWithAppleButtonCustom.swift */; };
 		3CD71269277122490013099E /* OnboardingViewPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71268277122480013099E /* OnboardingViewPart2.swift */; };
+		3CD71275277285B20013099E /* LikeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD71274277285B20013099E /* LikeAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		3CD71261276F38230013099E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		3CD71264276F3BA60013099E /* SignInWithAppleButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButtonCustom.swift; sourceTree = "<group>"; };
 		3CD71268277122480013099E /* OnboardingViewPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPart2.swift; sourceTree = "<group>"; };
+		3CD71274277285B20013099E /* LikeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 				3CD7124C276E881D0013099E /* ProfileHeaderView.swift */,
 				3CD71252276E9CC00013099E /* SettingsLabelIView.swift */,
 				3CD71264276F3BA60013099E /* SignInWithAppleButtonCustom.swift */,
+				3CD71274277285B20013099E /* LikeAnimationView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				3CD7123D276DB76F0013099E /* ImageGridView.swift in Sources */,
 				3CD711D3276963C10013099E /* PostView.swift in Sources */,
 				3CD7124A276E870F0013099E /* ProfileView.swift in Sources */,
+				3CD71275277285B20013099E /* LikeAnimationView.swift in Sources */,
 				3CD71235276C2F4A0013099E /* BrowseView.swift in Sources */,
 				3CD7125C276F1E710013099E /* SettingsEditImageView.swift in Sources */,
 				3CD71232276C25BE0013099E /* CommentModel.swift in Sources */,
